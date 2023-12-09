@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+}
+
+header {
+	background: skyblue;
+	color: darkorchid;
+	margin-bottom: 10px;
+	display: flex;
+	padding: 10px;
+}
+
+#title h1 {
+	margin: 5px;
+	padding: 5px;
+}
+
+.menu {
+	margin: 10px 5px 10px auto;
+	padding: 15px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	margin: 0 5px;
+}
+
+.menu a:hover {
+	color: darkorchid;
+}
+
+footer {
+	background: skyblue;
+	color: floralwhite;
+	margin-top: 10px;
+	text-align: center;
+	padding: 5px;
+}
+
+footer h2 {
+	font-size: 20px;
+}
+
+
+.row {
+	display: flex;
+}
+
+.col-4 {
+	position: relative;
+	width: 33.33%;
+	padding: 20px;
+}
+
+.col-8 {
+	position: relative;
+	width: 66.67%;
+	padding: 20px;
+}
+
+.story img {
+	width: 100%;
+	border-radius: 15px;
+}
+.story p {
+	padding: 5px;
+	font-size: 18px;
+	text-align: justify;
+	letter-spacing: 2px;
+	line-height: 25px;
+	margin: 0;
+}
+
+@media screen and (max-width: 650px) {
+	header {
+		display: block;
+	}
+
+	.menu {
+		margin: auto;
+		text-align: center;
+	}
+
+	.row {
+		display: block;
+	}
+
+	.col-4, .col-8 {
+		box-sizing: border-box;
+		width: 100%;
+	}
+}

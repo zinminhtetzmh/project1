@@ -1,0 +1,21 @@
+.ship {
+	margin-bottom: 50px;
+}
+.ship img {
+	width: 100%;
+}
+.ship h2 {
+	text-align: center;
+}
+.ship h2 span {
+	font-size: 30px;
+	color: orange;
+}
+.ship p {
+	padding: 10px;
+	font-size: 18px;
+	text-align: justify;
+	letter-spacing: 2px;
+	line-height: 25px;
+	margin: 0;
+}

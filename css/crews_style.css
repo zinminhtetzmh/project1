@@ -1,0 +1,52 @@
+.posters {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.posters img {
+	width: 145px;
+	height: 215px;
+}
+
+.row {
+	margin: 30px 0;
+}
+
+.reverse {
+	display: block;
+}
+.reverse * {
+	box-sizing: border-box;
+}
+.reverse::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+.reverse .col-4 {
+	float: right;
+	margin: 0;
+}
+.reverse .col-8 {
+	float: left;
+	margin: 0;
+}
+
+strong {
+	font-size: 25px;
+}
+
+@media screen and (min-width: 1200px) {
+	.wings {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.posters img {
+		display: none;
+		/* display: block;
+		margin: auto;
+		width: 200px;
+		height: auto; */
+	}
+}

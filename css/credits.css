@@ -1,0 +1,24 @@
+.writer h1 {
+	text-align: center;
+	color: darkorchid;
+}
+.writer img {
+	display: block;
+	margin: auto;
+	border-radius: 15px;
+	width: 350px;
+}
+
+.writer h2 {
+	color: orange;
+	text-align: center;
+}
+
+.writer p {
+	padding: 20px;
+	font-size: 18px;
+	text-align: justify;
+	letter-spacing: 2px;
+	line-height: 25px;
+	margin: 0;
+}

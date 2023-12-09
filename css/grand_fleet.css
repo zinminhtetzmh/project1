@@ -1,0 +1,45 @@
+.cover {
+	margin-bottom: 50px;
+}
+.cover img {
+	width: 100%;
+}
+.cover p {
+	padding: 10px;
+	font-size: 18px;
+	text-align: justify;
+	letter-spacing: 2px;
+	line-height: 25px;
+	margin: 0;
+}
+
+.sub {
+	display: flex;
+	margin-bottom: 30px;
+}
+.sub * {
+	display: block;
+	margin: 10px auto;
+}
+.sub h2 {
+	text-align: center;
+	margin-top: 75px;
+	width: 250px;
+}
+.sub h2 span {
+	color: orange;
+	font-size: 20px;
+}
+.sub img {
+	border-radius: 5px;
+	width: 200px;
+}
+
+@media screen and (max-width: 600px) {
+	.sub {
+		display: block;
+	}
+	.sub img {
+		width: 350px;
+	}
+}
